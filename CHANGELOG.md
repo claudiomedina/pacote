@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="9.6.0"></a>
+# [9.6.0](https://github.com/evocateur/pacote/compare/v9.5.1...v9.6.0) (2019-05-08)
+
+
+### Bug Fixes
+
+* **git:** limit retry times, avoid unlimited retry make npm install process will never end ([6d87f20](https://github.com/evocateur/pacote/commit/6d87f20))
+* **tarball:** fix git error handling ([df64305](https://github.com/evocateur/pacote/commit/df64305))
+
+
+### Features
+
+* **deps:** Use forked npm-registry-fetch ([a6f62ad](https://github.com/evocateur/pacote/commit/a6f62ad))
+
+
+
 <a name="9.5.1"></a>
 ## [9.5.1](https://github.com/evocateur/pacote/compare/v9.5.0...v9.5.1) (2019-05-08)
 
