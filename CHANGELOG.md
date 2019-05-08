@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="9.5.1"></a>
+## [9.5.1](https://github.com/evocateur/pacote/compare/v9.5.0...v9.5.1) (2019-05-08)
+
+
+
 <a name="9.5.0"></a>
 # [9.5.0](https://github.com/zkat/pacote/compare/v9.4.1...v9.5.0) (2019-02-18)
 
