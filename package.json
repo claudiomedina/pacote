@@ -1,5 +1,5 @@
 {
-  "name": "pacote",
+  "name": "@evocateur/pacote",
   "version": "9.5.0",
   "description": "JavaScript package downloader",
   "main": "index.js",
@@ -7,6 +7,9 @@
     "*.js",
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prerelease": "npm t",
     "release": "standard-version -s",
@@ -17,7 +20,7 @@
     "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
     "update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
   },
-  "repository": "https://github.com/zkat/pacote",
+  "repository": "https://github.com/evocateur/pacote",
   "keywords": [
     "packages",
     "npm",
