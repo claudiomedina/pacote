@@ -1,6 +1,6 @@
 {
   "name": "@evocateur/pacote",
-  "version": "9.6.2",
+  "version": "9.6.3",
   "description": "JavaScript package downloader",
   "main": "index.js",
   "files": [
