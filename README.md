@@ -2,7 +2,7 @@
 
 ## NOTE: This is a fork of https://github.com/npm/pacote and you probably don't want to use it.
 
-[`pacote`](https://github.com/zkat/pacote) is a Node.js library for downloading
+[`pacote`](https://github.com/npm/pacote) is a Node.js library for downloading
 [npm](https://npmjs.org)-compatible packages. It supports all package specifier
 syntax that `npm install` and its ilk support. It transparently caches anything
 needed to reduce excess operations, using [`cacache`](https://npm.im/cacache).
