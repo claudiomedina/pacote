@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [9.6.5](https://github.com/evocateur/pacote/compare/v9.6.4...v9.6.5) (2019-08-20)
+
+
+### Bug Fixes
+
+* **deps:** Bump cacache ([d01a87f](https://github.com/evocateur/pacote/commit/d01a87f))
+
+
+
 ### [9.6.4](https://github.com/evocateur/pacote/compare/v9.6.3...v9.6.4) (2019-08-20)
 
 
