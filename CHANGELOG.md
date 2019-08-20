@@ -2,6 +2,43 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [9.6.4](https://github.com/evocateur/pacote/compare/v9.6.3...v9.6.4) (2019-08-20)
+
+
+
+### 9.5.8 (2019-08-20)
+
+
+
+### 9.5.7 (2019-08-19)
+
+
+### Bug Fixes
+
+* do not try to chown if not running as root ([bbc5da3](https://github.com/evocateur/pacote/commit/bbc5da3))
+
+
+
+### 9.5.6 (2019-08-15)
+
+
+### Bug Fixes
+
+* **extract:** chown properly when more than one directory is made ([5161828](https://github.com/evocateur/pacote/commit/5161828))
+
+
+
+### 9.5.5 (2019-08-12)
+
+
+### Bug Fixes
+
+* don't pass uid/gid to cacache ([0a0c73c](https://github.com/evocateur/pacote/commit/0a0c73c))
+* Infer owner of all unpacked files ([f12e7ef](https://github.com/evocateur/pacote/commit/f12e7ef))
+* invalid arg detection in extract() ([b4dc363](https://github.com/evocateur/pacote/commit/b4dc363)), closes [#5](https://github.com/evocateur/pacote/issues/5) [#6](https://github.com/evocateur/pacote/issues/6)
+
+
+
 ### [9.6.3](https://github.com/evocateur/pacote/compare/v9.6.2...v9.6.3) (2019-07-17)
 
 
