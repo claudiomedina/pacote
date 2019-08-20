@@ -39,9 +39,77 @@ All notable changes to this project will be documented in this file. See [standa
 * **deps:** Use forked npm-registry-fetch ([a6f62ad](https://github.com/evocateur/pacote/commit/a6f62ad))
 
 
+<a name="9.5.8"></a>
+## [9.5.8](https://github.com/npm/pacote/compare/v9.5.7...v9.5.8) (2019-08-20)
+
+
+
+<a name="9.5.7"></a>
+## [9.5.7](https://github.com/npm/pacote/compare/v9.5.6...v9.5.7) (2019-08-19)
+
+
+### Bug Fixes
+
+* do not try to chown if not running as root ([bbc5da3](https://github.com/npm/pacote/commit/bbc5da3))
+
+
+
+<a name="9.5.6"></a>
+## [9.5.6](https://github.com/npm/pacote/compare/v9.5.5...v9.5.6) (2019-08-15)
+
+
+### Bug Fixes
+
+* **extract:** chown properly when more than one directory is made ([5161828](https://github.com/npm/pacote/commit/5161828))
+
+
+
+<a name="9.5.5"></a>
+## [9.5.5](https://github.com/npm/pacote/compare/v9.5.4...v9.5.5) (2019-08-12)
+
+
+### Bug Fixes
+
+* don't pass uid/gid to cacache ([0a0c73c](https://github.com/npm/pacote/commit/0a0c73c))
+* Infer owner of all unpacked files ([f12e7ef](https://github.com/npm/pacote/commit/f12e7ef))
+* invalid arg detection in extract() ([b4dc363](https://github.com/npm/pacote/commit/b4dc363)), closes [#5](https://github.com/npm/pacote/issues/5) [#6](https://github.com/npm/pacote/issues/6)
+
+
+
+<a name="9.5.4"></a>
+## [9.5.4](https://github.com/npm/pacote/compare/v9.5.3...v9.5.4) (2019-07-16)
+
+
+### Bug Fixes
+
+* **git:** ensure stream failures are reported ([7f07b5d](https://github.com/npm/pacote/commit/7f07b5d)), closes [#1](https://github.com/npm/pacote/issues/1)
+
+
+
+<a name="9.5.3"></a>
+## [9.5.3](https://github.com/npm/pacote/compare/v9.5.2...v9.5.3) (2019-07-16)
+
+
+
+<a name="9.5.2"></a>
+## [9.5.2](https://github.com/npm/pacote/compare/v9.5.1...v9.5.2) (2019-07-12)
+
+
+### Bug Fixes
+
+* always pass uid/gid to cacache.put ([3d08925](https://github.com/npm/pacote/commit/3d08925))
+
+
 
 <a name="9.5.1"></a>
-## [9.5.1](https://github.com/evocateur/pacote/compare/v9.5.0...v9.5.1) (2019-05-08)
+## [9.5.1](https://github.com/npm/pacote/compare/v9.5.0...v9.5.1) (2019-06-17)
+
+
+### Bug Fixes
+
+* **audit:** npm audit fix ([127a28b](https://github.com/npm/pacote/commit/127a28b))
+* **errors:** Fix "TypeError: err.code.match is not a function" error ([#170](https://github.com/npm/pacote/issues/170)) ([92f5e4c](https://github.com/zkat/pacote/commit/92f5e4c))
+* **git:** limit retry times, avoid unlimited retries ([#172](https://github.com/npm/pacote/issues/172)) ([8bbd051](https://github.com/zkat/pacote/commit/8bbd051))
 
 
 
