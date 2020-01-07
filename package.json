@@ -53,7 +53,7 @@
     "glob": "^7.1.4",
     "infer-owner": "^1.0.4",
     "lru-cache": "^5.1.1",
-    "make-fetch-happen": "^5.0.0",
+    "make-fetch-happen": "^5.0.2",
     "minimatch": "^3.0.4",
     "minipass": "^2.3.5",
     "mississippi": "^3.0.0",
